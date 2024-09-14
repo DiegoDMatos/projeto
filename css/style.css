@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+nav{
+    height: 5vh;
+    background-color: #003366;
+    text-align: center;
+}
+
+nav ul li{
+    height: 100%;
+    margin: auto 15px;
+    height: 2vh;
+    width: 5vw;
+    display: inline-block;
+    
+}
+
+nav li, a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+}
+
+nav li a:hover{
+    background-color: #0055cc ;
+}
+
+.img1{
+    height: 45vh;
+    background-image: url(../img/c1.jpg);
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: cover;
+    margin-bottom: 2vh;
+    
+}
+
+.img1-text h1{
+    text-align: center;
+    margin-bottom: 5vh;
+    color: #003366;
+    font-size: 36px;
+
+}
+
+.img1-text p{
+    font-size: 20px;
+}
+
+.img1-text{
+    text-align: center;
+    height: 200px;
+    padding-top: 150px;
+    color:  #272727;
+}
+
+.sec2{
+    background-color: #f4f4f4;
+    height: 45vh;
+
+}
+
+.cards{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.card{
+    width: 20vw;
+    display: inline-block;
+    margin: 5vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-img img{
+    width: 75%;
+    padding-top: 2vh;
+
+}
+
+.card-text{
+    width: 60%;
+    margin: auto;
+}
+
+.card-text h2{
+    color: #003366;
+    padding: 5px;
+}
+
+.sec3{
+    height: 30vh;
+}
+
+.sec3-img{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    margin: 50px;
+    
+}
+
+.sec3-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sec3-text{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 75px;
+}
+
+.sec3-text h1{
+    margin-bottom: 20px;
+    color: #003366;
+    font-size: 36px;
+}
+
+.nav-footer{
+    background-color: #003366;
+    height: 5vh;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
